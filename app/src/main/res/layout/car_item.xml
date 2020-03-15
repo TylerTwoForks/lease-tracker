@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_marginStart="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginEnd="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:paddingTop="8dp">
+
+
+        <ImageButton
+            android:id="@+id/btn_car_edit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_edit_white"
+            android:tint="@color/colorPrimaryDark"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:padding="4dp"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:id="@+id/tv_car_name"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="top"
+            android:text="@string/car_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="30sp" />
+
+
+
+
+        <TextView
+            android:id="@+id/courseStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/make"
+            android:textSize="20sp"
+            android:layout_below="@id/tv_car_name"/>
+        <TextView
+            android:id="@+id/tv_car_make"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toyota"
+            android:layout_toEndOf="@id/start_date"
+            android:textSize="20sp"
+            android:paddingStart="8dp"
+            android:paddingEnd="1dp"
+            android:layout_below="@id/tv_car_name"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="1dp"
+            android:paddingLeft="8dp"
+            android:layout_toRightOf="@id/start_date" />
+
+        <TextView
+            android:id="@+id/car_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/model"
+            android:textSize="20sp"
+            android:layout_below="@id/courseStart"/>
+        <TextView
+            android:id="@+id/tv_car_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_4runner"
+            android:layout_below="@id/courseStart"
+            android:layout_toEndOf="@id/start_date"
+            android:textSize="20sp"
+            android:paddingStart="8dp"
+            android:paddingEnd="1dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="1dp"
+            android:paddingLeft="8dp"
+            android:layout_toRightOf="@id/start_date" />
+
+        <TextView
+            android:id="@+id/start_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_car_model"
+            android:text="@string/lease_start_date"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_lease_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/number_filler"
+            android:layout_below="@id/tv_car_model"
+            android:layout_toEndOf="@id/start_date"
+            android:textSize="20sp"
+            android:paddingStart="8dp"
+            android:paddingEnd="1dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:paddingRight="1dp"
+            android:paddingLeft="8dp"
+            android:layout_toRightOf="@id/start_date" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

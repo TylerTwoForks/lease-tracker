@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/gap"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp" />
+
+
+    <EditText
+        android:id="@+id/et_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gap"
+        android:hint="@string/user_name"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textSize="30sp"
+        android:text="Test"/>
+
+    <ImageView
+        android:id="@+id/gap2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et_user_name" />
+
+    <EditText
+        android:id="@+id/et_user_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gap2"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textSize="30sp"
+        android:text="test"/>
+
+    <ImageView
+        android:id="@+id/gap3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et_user_pass" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gap3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/button_rounded_corners"
+        android:gravity="center"
+        android:padding="10dp"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:text="@string/login"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/gap4"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/btn_login" />
+
+    <TextView
+        android:id="@+id/tv_createAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gap4"
+        android:layout_centerHorizontal="true"
+        android:text="@string/create_account"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!--    android:background="@color/colorSecondary"-->
+
+
+</RelativeLayout>

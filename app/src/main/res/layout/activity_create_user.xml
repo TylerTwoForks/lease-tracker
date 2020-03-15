@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_add_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_username" />
+
+    <EditText
+        android:id="@+id/et_add_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_add_username"
+        android:hint="@string/add_password" />
+
+    <ImageView
+        android:id="@+id/gap"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/et_add_password" />
+
+    <LinearLayout
+        android:id="@+id/ll_un_error"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/gap"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_error_red" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:text="@string/un_exists_error"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/errorRed"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</RelativeLayout>

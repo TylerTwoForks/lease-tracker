@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    Grey Palette    -->
+    <color name="colorPrimary">#546e7a</color>
+    <color name="colorPrimaryDark">#29434e</color>
+    <color name="colorPrimaryLight">#819ca9</color>
+
+<!--    Light Grey Palette  -->
+    <color name="colorSecondary">#edf0f2</color>
+    <color name="colorSecondaryDark">#bbbebf</color>
+    <color name="colorSecondaryLight">#ffffff</color>
+
+<!--    Extra color items   -->
+    <color name="transparent">#00000000</color>
+    <color name="errorRed">#ff0000</color>
+    <color name="orangeRed">#ff5100</color>
+    <color name="colorAccent">#1faa00</color>
+    <color name="warning">#fca103</color>
+
+
+
+<!--    Green Palette   -->
+<!--    <color name="colorSecondary">#64dd17</color>-->
+<!--    <color name="colorSecondaryDark">#1faa00</color>-->
+<!--    <color name="colorSecondaryLight">#9cff57</color>-->
+
+
+
+</resources>
