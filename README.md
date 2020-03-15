@@ -2,6 +2,7 @@
 Lease Tracker Android Application
 
 Below you can find the overall flow of the application. 
+
 This application uses a SQLite ROOM DB in conjunction with the MVVM architecture design. 
 
 Features include:
