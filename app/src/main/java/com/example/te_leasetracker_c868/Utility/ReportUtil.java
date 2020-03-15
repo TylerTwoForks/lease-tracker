@@ -2,22 +2,17 @@ package com.example.te_leasetracker_c868.Utility;
 
 import android.Manifest;
 import android.app.Activity;
-import android.app.Application;
 import android.content.pm.PackageManager;
-import android.os.Environment;
 import android.util.Log;
 
 import androidx.core.app.ActivityCompat;
 
 import com.example.te_leasetracker_c868.CarListActivity;
 import com.example.te_leasetracker_c868.DB_Entities.Car;
-import com.opencsv.CSVWriter;
-
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

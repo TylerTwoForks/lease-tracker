@@ -1,9 +1,5 @@
 package com.example.te_leasetracker_c868;
 
-import androidx.annotation.RequiresApi;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
@@ -18,6 +14,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+
 import com.example.te_leasetracker_c868.Utility.DateUtil;
 
 import java.time.LocalDate;
@@ -26,10 +26,10 @@ import java.util.Objects;
 
 import static com.example.te_leasetracker_c868.CarAddEditActivity.EXTRA_CAR_ANNUAL_MILEAGE;
 import static com.example.te_leasetracker_c868.CarAddEditActivity.EXTRA_CAR_ID;
-import static com.example.te_leasetracker_c868.CarAddEditActivity.EXTRA_CAR_NAME;
 import static com.example.te_leasetracker_c868.CarAddEditActivity.EXTRA_CAR_LEASE_START;
 import static com.example.te_leasetracker_c868.CarAddEditActivity.EXTRA_CAR_MAKE;
 import static com.example.te_leasetracker_c868.CarAddEditActivity.EXTRA_CAR_MODEL;
+import static com.example.te_leasetracker_c868.CarAddEditActivity.EXTRA_CAR_NAME;
 import static com.example.te_leasetracker_c868.CarAddEditActivity.EXTRA_CAR_START_MILEAGE;
 
 public class CarDetailActivity extends AppCompatActivity {

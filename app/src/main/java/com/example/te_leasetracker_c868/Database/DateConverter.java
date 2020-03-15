@@ -2,11 +2,10 @@ package com.example.te_leasetracker_c868.Database;
 
 import android.os.Build;
 
-import java.time.LocalDate;
-import java.util.Date;
-
 import androidx.annotation.RequiresApi;
 import androidx.room.TypeConverter;
+
+import java.time.LocalDate;
 
 // example converter for java.util.Date
 public class DateConverter {

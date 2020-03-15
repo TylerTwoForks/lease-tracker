@@ -15,7 +15,6 @@ import androidx.lifecycle.ViewModelProviders;
 
 import com.example.te_leasetracker_c868.DB_Entities.User;
 import com.example.te_leasetracker_c868.View_Models.UserViewModel;
-import com.google.android.material.snackbar.Snackbar;
 
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;

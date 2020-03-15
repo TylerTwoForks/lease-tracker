@@ -8,7 +8,6 @@ import androidx.room.Query;
 import androidx.room.Update;
 
 import com.example.te_leasetracker_c868.DB_Entities.Car;
-import com.example.te_leasetracker_c868.DB_Entities.User;
 
 import java.util.List;
 
