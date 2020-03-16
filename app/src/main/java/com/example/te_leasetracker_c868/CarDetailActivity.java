@@ -164,7 +164,7 @@ public class CarDetailActivity extends AppCompatActivity {
 
                 //Here I check to see what the variance is and set background color of the cardview appropriately.
                 //Green for over 200 miles under, yellow for between 0 and 200, red for under 0.
-                if(variance>100){
+                if(variance>200){
                     cv_leaseHealth.setCardBackgroundColor(Color.parseColor("#1faa00"));
                 }else if(variance>0&&variance<200){
                     cv_leaseHealth.setCardBackgroundColor(Color.parseColor("#fca103"));

@@ -16,8 +16,6 @@
 
         <activity android:name=".CarAddEditActivity"></activity>
 <!--    Car Edit Activity   -->
-        <activity
-            android:name=".CarEditActivity"/>
 <!--    Car Detail Activity  -->
         <activity
             android:name=".CarDetailActivity">
