@@ -1,5 +1,5 @@
-# TE_LeaseTracker_C868
-Lease Tracker Android Application
+# Vehicle Lease Tracker
+Track information about your lease on your Android smart phone!
 
 Below you can find the overall flow of the application. 
 
